@@ -17,6 +17,8 @@ public class CBTrainingApiWithJsonPath {
     @Test
     public void test1(){
 
+
+
         //send a get request to student id 23401 as a path parameter and accept header application/json
         //verify status code=200 /content type=application/json;charset=UTF-8 /Content-Encoding = gzip
         //verify Date header exists
