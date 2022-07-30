@@ -3,7 +3,7 @@ package com.cydeo.day6.pojo;
 public class Spartan {
     private int id;
     private String name ;
-    private String getName;
+    private String gender;
     private long phone;
 
     public int getId() {
@@ -22,12 +22,12 @@ public class Spartan {
         this.name = name;
     }
 
-    public String getGetName() {
-        return getName;
+    public String getGender() {
+        return gender;
     }
 
-    public void setGetName(String getName) {
-        this.getName = getName;
+    public void setGender(String gender) {
+        this.gender = gender;
     }
 
     public long getPhone() {
@@ -43,7 +43,7 @@ public class Spartan {
         return "Spartan{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
-                ", getName='" + getName + '\'' +
+                ", gender='" + gender + '\'' +
                 ", phone=" + phone +
                 '}';
     }
